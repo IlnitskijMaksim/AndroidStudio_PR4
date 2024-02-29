@@ -6,4 +6,6 @@
     <string name="hello_en">Hello!</string>
     <string name="stop_en">Stop pressing me!</string>
     <string name="emoji_en">😡😡😡😡😡😡😡</string>
+    <string name="button_ua">Натисни мене</string>
+    <string name="button_en">Press me</string>
 </resources>

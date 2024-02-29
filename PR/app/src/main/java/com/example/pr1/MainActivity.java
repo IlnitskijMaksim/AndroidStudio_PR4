@@ -32,8 +32,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
         simpleButton = findViewById(R.id.simpleButton);
         simpleTextView = findViewById(R.id.simpleTextView);
 
@@ -52,9 +50,11 @@ public class MainActivity extends AppCompatActivity {
 
         if (isUkrainianLocale()){
             linearLayout.setBackground(gradientDrawableUA);
+            simpleButton.setText(R.string.button_ua);
         }
         else {
             linearLayout.setBackground(gradientDrawableAnother);
+            simpleButton.setText(R.string.button_en);
             simpleTextView.setTextColor(Color.WHITE);
         }
 
